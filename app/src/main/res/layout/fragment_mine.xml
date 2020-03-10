@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/tv_circle_bg"
+        android:gravity="center"
+        android:text="汽车"
+        android:textSize="32dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/et_search_bg"
+        android:drawableLeft="@mipmap/ic_setting"
+        android:drawableRight="@mipmap/ic_right_arrow"
+        android:drawablePadding="16dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="设置"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/et_search_bg"
+        android:drawableLeft="@mipmap/ic_server"
+        android:drawableRight="@mipmap/ic_right_arrow"
+        android:drawablePadding="16dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="客服中心"
+        android:textSize="16sp" />
+</LinearLayout>
