@@ -23,7 +23,7 @@ public class LoginActivity extends AppCompatActivity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (etName.getText().toString().equals("zhaojinbao") && !TextUtils.isEmpty(etPassWord.getText().toString())) {
+                if (!TextUtils.isEmpty(etName.getText().toString()) && !TextUtils.isEmpty(etPassWord.getText().toString())) {
                     startActivity(new Intent(LoginActivity.this, MainActivity.class));
                     finish();
                 } else {

@@ -17,9 +17,10 @@
         android:paddingLeft="16dp" />
 
     <TextView
-        android:layout_gravity="center_horizontal"
+        android:id="@+id/btn_reason"
         android:layout_width="200dp"
         android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="128dp"
         android:background="@drawable/et_search_bg"
         android:gravity="center"
@@ -27,9 +28,10 @@
         android:textSize="16sp" />
 
     <TextView
-        android:layout_gravity="center_horizontal"
+        android:id="@+id/btn_method"
         android:layout_width="200dp"
         android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="32dp"
         android:background="@drawable/et_search_bg"
         android:gravity="center"
@@ -37,9 +39,10 @@
         android:textSize="16sp" />
 
     <TextView
-        android:layout_gravity="center_horizontal"
+        android:id="@+id/btn_maintain"
         android:layout_width="200dp"
         android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="32dp"
         android:background="@drawable/et_search_bg"
         android:gravity="center"

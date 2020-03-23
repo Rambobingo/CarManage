@@ -24,35 +24,51 @@
         android:textColor="@color/colorPrimary"
         android:textSize="28sp" />
 
-    <EditText
-        android:id="@+id/et_name"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_marginTop="32dp"
-        android:background="@drawable/et_search_bg"
-        android:hint="用户名"
-        android:paddingLeft="16dp"
-        android:textSize="24dp" />
+        android:background="@android:color/white"
+        android:orientation="horizontal">
 
-    <EditText
-        android:id="@+id/et_password"
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="用户名"
+            android:textSize="24dp" />
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@null"
+            android:hint="请输入用户名"
+            android:paddingLeft="16dp"
+            android:textSize="24dp" />
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_marginTop="32dp"
-        android:background="@drawable/et_search_bg"
-        android:hint="密码"
-        android:paddingLeft="16dp"
-        android:textSize="24dp" />
+        android:background="@android:color/white"
+        android:orientation="horizontal">
 
-    <TextView
-        android:layout_gravity="right"
-        android:id="@+id/btn_register"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:text="注册账号"
-        android:textColor="@color/colorPrimary"
-        android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="密    码"
+            android:textSize="24dp" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@null"
+            android:hint="请输入密码"
+            android:paddingLeft="16dp"
+            android:textSize="24dp" />
+    </LinearLayout>
 
     <TextView
         android:id="@+id/btn_login"

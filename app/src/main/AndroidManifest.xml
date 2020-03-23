@@ -14,6 +14,7 @@
     <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- 开机广播 -->
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
         android:allowBackup="true"
@@ -22,7 +23,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SecurityReminderActivity"></activity>
+        <activity android:name=".SettingActivity"></activity>
+        <activity android:name=".CarMaintenanceActivity" />
+        <activity android:name=".SolutionActivity" />
+        <activity android:name=".FaultCauseActivity" />
+        <activity android:name=".InputPayPasswordActivity" />
+        <activity android:name=".BenchiActivity" />
+        <activity android:name=".BaomaActivity" />
+        <activity android:name=".AodiActivity" />
+        <activity android:name=".JunweiActivity" />
+        <activity android:name=".SecurityReminderActivity" />
         <activity android:name=".WiperWashActivity" />
         <activity android:name=".WindowControlActivity" />
         <activity android:name=".ControlLockActivity" />
