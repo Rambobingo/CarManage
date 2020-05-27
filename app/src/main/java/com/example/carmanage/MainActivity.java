@@ -4,7 +4,6 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.widget.RadioButton;
 import android.widget.RadioGroup;
 
 import com.example.carmanage.fragment.BCMFragment;
@@ -20,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
 
     private ViewPager viewPager;
     private RadioGroup radioGroup;
-    private RadioButton rbSalePrice, rbBCM, rbMaintain, rbMine;
 
 
     @Override
@@ -33,10 +31,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void initView() {
         radioGroup = findViewById(R.id.radioGroup);
-        rbSalePrice = findViewById(R.id.rb_sale_price);
-        rbBCM = findViewById(R.id.rb_bcm);
-        rbMaintain = findViewById(R.id.rb_maintain);
-        rbMine = findViewById(R.id.rb_mine);
 
         //RadioGroup选中状态改变监听
         radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
