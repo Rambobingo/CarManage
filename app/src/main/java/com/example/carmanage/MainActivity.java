@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
     private ViewPager viewPager;
     private RadioGroup radioGroup;
 
+    
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
